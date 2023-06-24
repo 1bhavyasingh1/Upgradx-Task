@@ -1,0 +1,131 @@
+.container {
+  padding-top: 15vw;
+  padding-bottom: 20vw;
+  position: relative;
+  clip-path: polygon(0% 27%, 100% 0%, 100% 73%, 0% 100%);
+  background: #0a2540;
+}
+
+.text {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+}
+
+.text h3 {
+  padding-top: 2vw;
+  padding-bottom: 10px;
+  font-size: 2rem;
+}
+
+.tutorial {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  color: white;
+}
+
+.steps {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+
+.steps p {
+  font-size: 18px;
+  padding: 12px 26px 12px 18px;
+  background-color: #538bff;
+  font-weight: 600;
+  border-radius: 2px;
+  width: fit-content;
+  margin-bottom: 2vw;
+  clip-path: polygon(0% 0%, 80% 0%, 100% 100%, 0% 100%);
+}
+
+.steps h3 {
+  font-size: 3rem;
+  color: #9ecfff;
+  margin-bottom: 2vw;
+}
+
+.video {
+  z-index: 999;
+  height: 35vw;
+  padding-right: 50px;
+}
+
+.video video {
+  width: 16vw;
+}
+
+.graphic {
+  position: absolute;
+  top: 25%;
+  right: 10%;
+  z-index: 0;
+}
+
+@media (max-width: 768px) {
+  .text {
+    padding-top: 6vw;
+    font-size: 3vw;
+  }
+
+  .text h3 {
+    font-size: 2px;
+  }
+
+  .steps {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .steps h3 {
+    font-size: 4vw;
+  }
+
+  .tutorial {
+    flex-direction: column;
+  }
+
+  .graphic {
+    display: none;
+  }
+
+  .video {
+    display: none;
+  }
+
+}
+
+.text p {
+  color: #D1D3D7;
+  font-size: 18px;
+}
+
+.text h3 {
+  font-size: 24px;
+}
+
+
+.steps h3 {
+  font-size: 32px;
+  margin: 0px 0px 30.72px;
+}
+
+.steps img {
+  padding: 0.5rem 1rem;
+  border: 0px solid rgb(209, 217, 233);
+  border-radius: 8px;
+  width: 120px;
+  height: auto;
+}

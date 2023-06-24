@@ -1,0 +1,35 @@
+.growth {
+    margin-top: 4vw;
+    margin-bottom: 4vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.growth h1 {
+    font-size: 40px;
+    color: 2F3440;
+}
+
+.image-container {
+    width: 100%;
+}
+
+.image {
+    width: 80%;
+    height: auto;
+    margin-top: 4vw;
+}
+
+@media (max-width: 600px) {
+    .image-container {
+        overflow-x: scroll;
+    }
+
+    .image {
+        width: 200%;
+        margin-top: 8vw;
+    }
+}
